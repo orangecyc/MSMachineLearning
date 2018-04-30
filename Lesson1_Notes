@@ -2,7 +2,7 @@ Set up two environments: Microsoft R Server, Client PC
 
 On Microsoft R Server:
 1) R - Base R and R package
-2) Microsoft R Open - with optimised script, with suffix rx- (ScaleR package which allows parallel run, can treat XDF files)
+2) Microsoft R Open - with optimised script ScaleR package (with suffix rx-) which allows parallel run and handle XDF files
 
 Microsoft R Server can be installed from MS SQL Server 2016
 
@@ -17,7 +17,8 @@ R Client -> R Open -> RStudio
 
 Visual Studio Enterprise:
 R Tools -> Data Science Setting...
-File -> Open -> File (Lab files in E: drive)
+File -> Open -> File (Lab files in E: drive, same as those download of MOC content)
+Note the console > = Local, remote> = On server
 
 
 To run script on server:
