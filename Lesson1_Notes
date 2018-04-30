@@ -1,7 +1,34 @@
+Set up two environments: Microsoft R Server, Client PC
+
 On Microsoft R Server:
 1) R - Base R and R package
-2) Microsoft Open R - with optimised script, with suffix rx- (ScaleR package which allows parallel run, treat XDS files)
+2) Microsoft R Open - with optimised script, with suffix rx- (ScaleR package which allows parallel run, can treat XDF files)
+
+Microsoft R Server can be installed from MS SQL Server 2016
 
 
+On Client PC:
+1) IDE - Visual Studio Enterprise (already contains ScaleR package)/ RStudio
+2) Microsoft R Open (can script to run in local PC or run in server) [https://mran.microsoft.com/download]
+3) R Client (Has ScaleR package, must install if use RStudio) [https://docs.microsoft.com/en-us/machine-learning-server/r-client/install-on-windows]
+
+Installation step:
+R Client -> R Open -> RStudio
 
 
+To run script on server:
+1) Remote login to MS R Server - open a remote session 
+2) "Pause" to return to local session
+3) Put local object (a dataset/ script) to MS R Server
+4) "Resume" to remote session
+5) Run
+
+
+ScaleR:
+Handle XDF files
+Performance tuning - manage RAM loading and harddisk storage
+Connect to Hadoop, Spark
+
+
+MS SQL server:
+Has R
