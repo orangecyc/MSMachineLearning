@@ -1,0 +1,7 @@
+On Microsoft R Server:
+1) R - Base R and R package
+2) Microsoft Open R - with optimised script, with suffix rx- (ScaleR package which allows parallel run, treat XDS files)
+
+
+
+
