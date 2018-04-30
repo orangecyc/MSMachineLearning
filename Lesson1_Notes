@@ -15,6 +15,10 @@ On Client PC:
 Installation step:
 R Client -> R Open -> RStudio
 
+Visual Studio Enterprise:
+R Tools -> Data Science Setting...
+File -> Open -> File (Lab files in E: drive)
+
 
 To run script on server:
 1) Remote login to MS R Server - open a remote session 
