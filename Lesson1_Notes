@@ -9,12 +9,11 @@ Microsoft R Server can be installed from MS SQL Server 2016
 
 On Client PC:
 1) IDE - Visual Studio Enterprise (already contains ScaleR package)/ RStudio
-2) Microsoft R Open (can script to run in local PC or run in server) [https://mran.microsoft.com/download]
-3) R Client (Has ScaleR package, must install if use RStudio) [https://docs.microsoft.com/en-us/machine-learning-server/r-client/install-on-windows]
+2) Microsoft R Open (with ScaleR package, can script to run in local PC or run in server) [https://mran.microsoft.com/download]
+3) R Client (Contain a old version of R Open, must install if use RStudio) [https://docs.microsoft.com/en-us/machine-learning-server/r-client/install-on-windows]
 
-Installation step:
-R Client -> R Open -> RStudio
-
+Suggested installation step:
+R Client -> R Open -> RStudio (Install RStudio first, still can detect Microsoft R. If cannot detect,  change Tools > Global Options > General > R version)
 Visual Studio Enterprise:
 R Tools -> Data Science Setting...
 File -> Open -> File (Lab files in E: drive, same as those download of MOC content)
