@@ -1,0 +1,7 @@
+Usual practise of using XDF:
+1) Open an Excel/ SQL Database
+2) Run rx Data Step to convert data to XDF format
+XDF data is not directly human-readable
+
+Remove columns in XDF:
+1) Clone XDF by selecting required column
