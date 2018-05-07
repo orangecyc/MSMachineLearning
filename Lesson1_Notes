@@ -26,7 +26,7 @@ To run script on server:
 3) Put local object (a dataset/ script) to MS R Server
 4) "Resume" to remote session
 5) Run
-
+6) exit to logout from remote R session
 
 ScaleR:
 Handle XDF files
